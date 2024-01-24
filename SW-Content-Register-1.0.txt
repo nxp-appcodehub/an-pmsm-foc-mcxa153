@@ -1,0 +1,23 @@
+NXP Software Content Register
+
+Package:                   an-pmsm-foc-mcxa153
+Version:                   1.0
+Outgoing License:          LA_OPT_NXP_Software_License v53 December 2023 Additional Distribution License granted, license in Section 2.3 applies
+License File:              LICENSE
+Description and comments:  This application note describes the implementation of sensorless flux oriented control(FOC) application for 3-phase Permanent Magnet Synchronous Motors (PMSM) on the FRDM-MCXA153 board based on the NXP MCXA153 MCU.
+Release Location:          https://github.com/nxp-appcodehub/an-pmsm-foc-mcxa153
+Origin:                    NXP (proprietary)
+                           NXP (BSD-3-Clause)
+                           cmsis - ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/
+                             
+cmsis                      Name: CMSIS                                       
+                           Version: 5.8.0                                    
+                           Outgoing License: Apache License 2.0              
+                           License File: CMSIS/LICENSE.txt                  
+                           Format: source code                               
+                           Description and comments: Vendor-independent hardware          
+                           abstraction layer for microcontrollers that are   
+                           based on Arm Cortex processors, distributed by    
+                           ARM. cores 
+                           Location: CMSIS/ 
+                           Origin: NXP (Apache License 2.0)   

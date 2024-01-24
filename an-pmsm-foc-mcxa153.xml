@@ -1,0 +1,29 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="an-pmsm-foc-mcxa153" type="app_note" format="projectfile" versionSchema="1.0.0" name="pmsm foc mcxa153">
+    <display_title>
+        AN14099: PMSM Sensorless FOC Using MCXA153
+    </display_title>
+    <overview>
+        <![CDATA[This application note describes the implementation of sensorless flux
+oriented control(FOC) application for 3-phase Permanent Magnet Synchronous
+Motors (PMSM) on the FRDM-MCXA153 board based on the NXP MCXA153 MCU.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="mcx"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXA153"></hw>
+    </nxp_compatible_hw>
+    <nxp_ebh_hw>
+        <ebh id="nxp_frdm_mc_lvpmsm"></ebh>
+    </nxp_ebh_hw>
+    <peripherals>
+        <peripheral name="adc"></peripheral>
+        <peripheral name="pwm"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="motor_control"></category>
+    </categories>
+</data:item>
