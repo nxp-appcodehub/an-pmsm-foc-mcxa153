@@ -5,7 +5,7 @@
 
 This application note describes the implementation of sensorless flux
 oriented control(FOC) application for 3-phase Permanent Magnet Synchronous
-Motors (PMSM) on the FRDM-MCXA153 board based on the NXP MCXA153 MCU. Please refer to AN14099 <!--[AN14099](https://www.nxp.com/docs/en/application-note/AN14099.pdf)Will add after release --> for complete instructions on how to use this software.  
+Motors (PMSM) on the FRDM-MCXA153 board based on the NXP MCXA153 MCU. Please refer to [AN14099](https://www.nxp.com/webapp/Download?colCode=AN14099&location=null) for complete instructions on how to use this software.  
 The MCXA series MCUs expands the MCX Arm® Cortex®-M33 product offerings with multiple high-speed connectivity, operating up to 96 MHz, serial peripherals, timers, analog and low power consumption. The Enhanced Flex Pulse Width Modulator(eFlexPWM) contains three sub-modules, each has a 16-bit counter which can work with 192MHz clock source and supports a pair of complementary output and 3 fault inputs. 
 Analog component includes one 16-bit, up to 16channels and max 4Msps SAR ADC and 2 analog comparator.
 This application note mainly introduces the principle of PMSM FOC, hardware and software implementation with NXP development kit, including a detailed peripheral setup,driver description and FreeMASTER operation guide.
@@ -27,11 +27,11 @@ This application note mainly introduces the principle of PMSM FOC, hardware and 
 ## 1. Software<a name="step1"></a>
 - Download and install [MCUXpresso IDE V11.9.0 or later](https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE).
 - Download and install the latest version of [FreeMASTER](https://www.nxp.com/design/software/development-software/freemaster-run-time-debugging-tool:FREEMASTER)(3.2.2.2).
-- Download the code from Git repository an-pmsm-foc-mcxa153 <!--[an-pmsm-foc-mcxa153](https://github.com/nxp-appcodehub/an-pmsm-foc-mcxa153/browse)-->.  
+- Download the code from Git repository [an-pmsm-foc-mcxa153](https://github.com/nxp-appcodehub/an-pmsm-foc-mcxa153).  
 - MCUXpresso for Visual Studio Code: This example supports MCUXpresso for Visual Studio Code, for more information about how to use Visual Studio Code please refer [here](https://www.nxp.com/design/training/getting-started-with-mcuxpresso-for-visual-studio-code:TIP-GETTING-STARTED-WITH-MCUXPRESSO-FOR-VS-CODE).
 
 ## 2. Hardware<a name="step2"></a>
-- FRDM-MCXA153 Development Board.<!--[FRDM-MCXA153 Development Board](TBD).-->
+- [FRDM-MCXA153 Development Board](https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXA153).
 - [FRDM-MC-LVPMSM](https://www.nxp.com/design/development-boards/freedom-development-boards/mcu-boards/nxp-freedom-development-platform-for-low-voltage-3-phase-pmsm-motor-control:FRDM-MC-LVPMSM).
 - [LINIX 45ZWN24 motor](https://www.nxp.com/design/development-boards/freedom-development-boards/mcu-boards/low-voltage-3-phase-motor-for-frdm-platform:FRDM-MC-LVMTR).
 - Personal Computer
